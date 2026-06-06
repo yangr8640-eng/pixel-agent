@@ -1,0 +1,49 @@
+{
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "columns": 8,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7],
+      "fps": 4,
+      "loops": true
+    },
+    "working": {
+      "row": 1,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7],
+      "fps": 10,
+      "loops": true
+    },
+    "toolActive": {
+      "row": 2,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7],
+      "fps": 6,
+      "loops": true
+    },
+    "completed": {
+      "row": 3,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7],
+      "fps": 8,
+      "loops": false
+    },
+    "idleVariant": {
+      "row": 4,
+      "frames": [0, 1, 2, 3, 4, 5, 6, 7],
+      "fps": 4,
+      "loops": true
+    },
+    "idleSleepy": {
+      "row": 4,
+      "frames": [0, 1, 2, 3],
+      "fps": 3,
+      "loops": true
+    },
+    "idleGaming": {
+      "row": 4,
+      "frames": [4, 5, 6, 7],
+      "fps": 5,
+      "loops": true
+    }
+  }
+}
