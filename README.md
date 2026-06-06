@@ -4,6 +4,16 @@ Pixel Agent is a native macOS desktop companion for Codex. It lives in the menu 
 
 The character is a tiny pixel version of Codex sitting at a computer. It idles, works, thinks while tools run, waves when a task finishes, and occasionally gets sleepy or starts playing a tiny game when nothing is happening.
 
+## Preview
+
+| Idle | Working | Tool Active |
+| --- | --- | --- |
+| ![Pixel Agent idle animation](docs/media/pixel-agent-idle.gif) | ![Pixel Agent working animation](docs/media/pixel-agent-working.gif) | ![Pixel Agent tool active animation](docs/media/pixel-agent-tool-active.gif) |
+
+| Completed | Sleepy | Gaming |
+| --- | --- | --- |
+| ![Pixel Agent completed animation](docs/media/pixel-agent-completed.gif) | ![Pixel Agent sleepy animation](docs/media/pixel-agent-sleepy.gif) | ![Pixel Agent gaming animation](docs/media/pixel-agent-gaming.gif) |
+
 ## Features
 
 - Native macOS app built with SwiftUI and AppKit.
@@ -142,6 +152,12 @@ Regenerate the pixel sprite atlas:
 python3 tools/generate_sprite_atlas.py
 ```
 
+Regenerate the README preview GIFs:
+
+```bash
+python3 tools/generate_readme_gifs.py
+```
+
 The sprite assets are stored in:
 
 ```text
@@ -158,6 +174,7 @@ docs/hook-contract.md           hook event contract and privacy notes
 script/build_and_run.sh         local build, bundle, launch, and log helper
 scripts/pixel_agent_hook.py     standalone hook script copy
 tools/generate_sprite_atlas.py  procedural pixel sprite generator
+tools/generate_readme_gifs.py   README animation preview generator
 ```
 
 ## Repository
